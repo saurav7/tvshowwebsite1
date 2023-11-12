@@ -19,5 +19,11 @@ function TvShows() {
         })
     }, [])
 
-    return 
+    return (
+        <div className="container">
+            <div className="tvShow-list">
+                {tvShows.map((tvShows) => (<TvShowCard key={tvShows.id} tvShows={tvshow}/>))}
+            </div>
+        </div>
+    )
 }
