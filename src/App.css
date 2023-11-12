@@ -39,12 +39,23 @@ body {
   font-weight: bolder;
 }
 
+.search,
+.search-button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* TV SHOW LIST */
+
 .container{
   margin-top: 10rem;
 }
-
-
-/* TV SHOW LIST */
 
 .tvShow-list {
 
