@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <nav className="NavBar">
             <div className="NavContent">
-                <NavLink className="NavLink" to='/tvshows'><img className="logo" src={logo}/></NavLink>
+                <NavLink className="NavLink" to='/tvshows'><img className="logo" src={logo} alt="logo of the site"/></NavLink>
                 <NavLink className="NavLink" to="/" >Home</NavLink>
                 <NavLink className="NavLink" to="/about" >About</NavLink>
                 <NavLink className="NavLink" to='/tvshows'>TvShows</NavLink>

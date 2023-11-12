@@ -9,7 +9,7 @@ function TvShowDetails() {
             <div className="show-card">
                 <div className="show-details">
 
-                    <img src={state.image.medium} alt="" />
+                    <img src={state.image.medium} alt={state.name} />
                     <div className="img-title-genres-rating">
                         <h1>Name: {state.name}</h1>
                         <h1>Genres: {state.genres}</h1>
