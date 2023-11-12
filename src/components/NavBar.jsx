@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
+import SearchBar from "./SearchBar"
 
 function NavBar() {
     return (
@@ -7,6 +8,7 @@ function NavBar() {
                 <NavLink className="NavLink" to="/" >Home</NavLink>
                 <NavLink className="NavLink" to="/about" >About</NavLink>
                 <NavLink className="NavLink" to='/tvshows'>TvShows</NavLink>
+                <SearchBar />
             </div>
         </nav>
     )
