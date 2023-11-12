@@ -1,4 +1,4 @@
-function TvShowCard(){
+function TvShowCard({tvShow}){
 
 }
 export default TvShowCard

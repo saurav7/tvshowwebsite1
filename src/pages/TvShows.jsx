@@ -22,8 +22,9 @@ function TvShows() {
     return (
         <div className="container">
             <div className="tvShow-list">
-                {tvShows.map((tvShows) => (<TvShowCard key={tvShows.id} tvShows={tvshow}/>))}
+                {tvShows.map((tvshow) => (<TvShowCard key={tvshow.id} tvShow={tvshow}/>))}
             </div>
         </div>
     )
 }
+export default TvShows
