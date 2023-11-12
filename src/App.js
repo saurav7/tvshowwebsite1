@@ -6,6 +6,7 @@ import About from './pages/About';
 import NavBar from './components/NavBar';
 import TvShows from './pages/TvShows';
 import SearchResults from './pages/SearchResults';
+import TvShowDetails from './components/TvShowDetails';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path = "/about" component = {About}/>
           <Route exact path="/tvshows" component={TvShows} />
           <Route path="/search" component={SearchResults} />
+          <Route path={`/tvshows/:name`} component={TvShowDetails} />
         </Router>
     </div>
   );
