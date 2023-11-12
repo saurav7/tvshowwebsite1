@@ -38,3 +38,21 @@ body {
   color: #cca4f9;
   font-weight: bolder;
 }
+
+.container{
+  margin-top: 10rem;
+}
+
+
+.tvShow-list {
+
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}

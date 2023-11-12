@@ -6,7 +6,7 @@ function TvShows() {
     const[tvShows, setTvShows] = useState([])
 
     useEffect(() => {
-        axios.get('https://api.tvmaze.com/shows')
+        axios.get('https://api.tvmaze.com/shows',{ timeout: 5000 })
         .then((res) => {
             const results = res.data
 
