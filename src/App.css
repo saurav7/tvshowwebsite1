@@ -113,3 +113,41 @@ h1 {
 .card-image{
   border-radius: 5px;
 }
+
+
+/* TV SHOW DETAILS */
+.show-detail-container{
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.show-card{
+  background-color: #27324a;
+  width: 350px;
+  height: 490px;
+  
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+
+.img-title-genres-rating{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
