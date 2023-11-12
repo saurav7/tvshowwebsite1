@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min"
 
-function NavBar(){
-    return(
+function NavBar() {
+    return (
         <nav className="NavBar">
-            <NavLink className = "NavLink" to = "/" >Home</NavLink>
-            <NavLink className = "NavLink" to = "/about" >About</NavLink>
-            
+            <div className="NavContent">
+                <NavLink className="NavLink" to="/" >Home</NavLink>
+                <NavLink className="NavLink" to="/about" >About</NavLink>
+            </div>
         </nav>
     )
 }
