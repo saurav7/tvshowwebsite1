@@ -51,6 +51,11 @@ body {
     cursor: pointer;
 }
 
+.search::placeholder {
+  color: #7378c5;
+}
+
+
 /* TV SHOW LIST */
 
 .container{

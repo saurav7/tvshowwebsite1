@@ -1,7 +1,7 @@
 function SearchBar() {
     return (
         <div className="SearchBar">
-            <input type="text" className="search"/>
+            <input type="text" placeholder="Search TV Shows" className="search"/>
             <button className="search-button">Search</button>
         </div>
     )
