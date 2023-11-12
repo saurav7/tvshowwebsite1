@@ -44,6 +44,8 @@ body {
 }
 
 
+/* TV SHOW LIST */
+
 .tvShow-list {
 
   padding-top: 2em;
@@ -55,4 +57,43 @@ body {
   padding-left: 100px;
   padding-right: 100px;
 
+}
+
+/* TV SHOW CARD */
+
+.tvShow-card {
+  background-color: #373b69;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  margin: 1em;
+  width: 300px;
+  height: 480px;
+}
+
+.show-img-title-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  gap: 1em;
+}
+
+.show-info {
+  background-color: transparent;
+  border: 1px solid #22254b;
+  border-radius: 50px;
+  color: #e5b12d;
+  font-family: inherit;
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+h1 {
+  color: #00a881;
+  font-size: 1em;
+}
+.card-image{
+  border-radius: 5px;
 }
