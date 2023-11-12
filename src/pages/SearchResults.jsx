@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
+import TvShowCard from "../components/TvShowCard"
 
 function SearchResults(props) {
 
     const [searchTerm, setSearchTerm] = useState("")
-    const [searchResult, setSearchResults] = useState([])
+    const [searchResults, setSearchResults] = useState([])
 
     useEffect(() => {
 
@@ -28,6 +29,15 @@ function SearchResults(props) {
         }
         fetchData()
     }, [props.location.search])
-    return
+    return (
+        <div className="container">
+            <h1>Search Results for "{searchTerm !== "" ? searchTerm : 'Your Query'}"</h1>
+            <div className="tvShow-list">
+                {searchResults.map((tvshow) => (
+                    <TvShowCard key={tvshow.id} tvShow={tvshow} />
+                ))}
+            </div>
+        </div>
+    )
 }
 export default SearchResults
