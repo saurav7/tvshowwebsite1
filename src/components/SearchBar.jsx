@@ -14,11 +14,13 @@ function SearchBar() {
         }
     }
 
-    
+    const handleChange = ((e) => {
+        setSearchTerm(e.target.value)
+    })
 
     return (
         <div className="SearchBar">
-            <input type="text" placeholder="Search TV Shows" className="search" value={searchTerm} />
+            <input type="text" placeholder="Search TV Shows" className="search" value={searchTerm} onChange={handleChange}/>
             <button className="search-button" onClick={handleClick}>Search</button>
         </div>
     )
